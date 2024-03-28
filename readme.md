@@ -1,6 +1,6 @@
-# Multi-player board game
+# Multi-player board game simulation
 
-This is implementation of MCTS-based multi-player board game.
+This is the implementation of an MCTS-based multi-player board game for robotic team composition optimization.
 
 ## Requirement
 
@@ -11,7 +11,7 @@ numpy
 
 ## Usage
 
-1. Multi-tasking robotic team with the same robot type: Robot can handle all types of activities from A to H
+1. Multi-tasking robotic team with the same robot type: The robot can handle all types of activities from A to H
 
 ```
 python multi_tasking_team.py 
@@ -40,7 +40,7 @@ python mixed_team.py
 --scaffold_type <2x1|2x2|2x4|2x6|2x8|2x10>
 ```
 
-For example, 1 game, 2 installation robots, 1 transportation robots, and 2 story 2 span scaffold
+For example, 1 game, 2 installation robots, 1 transportation robot, and 2 story 2 span scaffold
 
 ```
 python mixed_team.py --total_game 1 --humanoid_num 2 --robot_num 1 --N 50 --C 10 --scaffold_type 2x2
