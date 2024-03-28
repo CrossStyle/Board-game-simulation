@@ -4,10 +4,9 @@ This is the implementation of an MCTS-based multi-player board game for robotic 
 
 ## Requirement
 
-```
 pandas
 numpy
-```
+
 
 ## Usage
 
